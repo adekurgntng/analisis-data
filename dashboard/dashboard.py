@@ -40,7 +40,7 @@ def create_daily_season_rentals(df):
     })
     return daily_season_rentals
 
-bs_day = pd.read_csv("https://github.com/adekurgntng/analisis-data/blob/main/dashboard/day.csv")
+bs_day = pd.read_csv("https://raw.githubusercontent.com/adekurgntng/analisis-data/main/dashboard/day.csv")
 
 datetime_columns = ["dteday"]
 bs_day.sort_values(by="dteday", inplace=True)
