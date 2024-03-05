@@ -1,4 +1,4 @@
-﻿altair==5.2.0
+altair==5.2.0
 anyio==4.3.0
 argon2-cffi==23.1.0
 argon2-cffi-bindings==21.2.0
@@ -93,6 +93,7 @@ pyparsing==3.1.1
 python-dateutil==2.8.2
 python-json-logger==2.0.7
 pytz==2024.1
+pywin32==306
 pywinpty==2.0.12
 PyYAML==6.0.1
 pyzmq==25.1.2
